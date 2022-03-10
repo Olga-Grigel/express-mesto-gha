@@ -1,0 +1,13 @@
+.popup__name-error {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FF0000;
+  opacity: 0;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  transition: opacity 0.3s;
+}

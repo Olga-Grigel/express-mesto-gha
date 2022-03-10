@@ -1,0 +1,11 @@
+.element__text-block {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 20px 0px 21px;
+}
+
+@media screen and (max-width: 425px) {
+    .element__text-block {
+        margin-right: 20px;
+    }
+}

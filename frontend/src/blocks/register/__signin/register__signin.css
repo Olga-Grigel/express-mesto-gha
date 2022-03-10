@@ -1,0 +1,8 @@
+.register__signin {
+  text-decoration: none;
+  color: #fff;
+}
+
+.register__signin:hover {
+  opacity: 0.6
+}

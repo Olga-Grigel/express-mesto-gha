@@ -1,0 +1,10 @@
+.popup__container_open_photo {
+    position: relative;
+    margin: auto;
+    max-width: 100%;
+    width:fit-content;
+    background:none;
+    border-radius: 0px;
+    padding: 0;
+    box-shadow: none;
+}

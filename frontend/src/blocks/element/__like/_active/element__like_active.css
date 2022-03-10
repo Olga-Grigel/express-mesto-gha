@@ -1,0 +1,17 @@
+.element__like_active {
+    background-image: url(../../../../images/head_active.svg);
+    min-width: 22px;
+    height: 19px;
+    align-self: center;
+    background-size: cover;
+    border: none;
+    background-color: rgb(0, 0, 0,0);
+    padding: 0;
+    transition: opacity 0.5s linear;
+    text-align: center;
+}
+
+.element__like_active:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}

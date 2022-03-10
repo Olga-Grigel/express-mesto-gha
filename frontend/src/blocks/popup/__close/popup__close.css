@@ -1,0 +1,27 @@
+.popup__close {
+    width: 40px;
+    height: 40px;
+    background: url(../../../images/Button_close_form_Big.svg);
+    background-position: center;
+    position: absolute;
+    border: none;
+    top: -43px;
+    right: -43px;
+    padding: 0;
+    transition: opacity 0.5s linear;
+}
+
+.popup__close:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 620px) {
+    .popup__close {
+        background-size: 40px 40px;
+        width: 26px;
+        height: 26px;
+        right: 0;
+        top: -47px;
+    }
+}
