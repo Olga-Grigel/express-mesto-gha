@@ -19,7 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && scp -r ./build/* olga@130.193.48.41:/home/olga/react-mesto-api-full/frontend"
+    "deploy": "npm run build && scp -r ./build/* olga@130.193.48.41:/home/olga/express-mesto-gha/frontend"
   },
   "eslintConfig": {
     "extends": [

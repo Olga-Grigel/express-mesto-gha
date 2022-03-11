@@ -34,7 +34,6 @@ function App() {
   }, [])
 
   const handleTokenCheck = (path) => {
-    console.log(localStorage.getItem('jwt'))
     if (localStorage.getItem('jwt')) {
       auth
         .checkToken()

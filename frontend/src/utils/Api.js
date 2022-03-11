@@ -83,7 +83,6 @@ class Api {
 const api = new Api({
   url: "https://api.olgagrigel.students.nomoredomains.work",
   headers: {
-    authorization: '991e328d-0927-45d2-8b32-8b35ae054b8c',
     'Content-Type': 'application/json'
   }
 });
