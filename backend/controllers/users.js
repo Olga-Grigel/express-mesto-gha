@@ -72,7 +72,7 @@ const login = (request, response, next) => {
   return User.findOneByCredentials(email, password)
     .then((user) => {
       // аутентификация успешна и пользователь в переменной user, создадим токен
-      const token = jwt.sign({ _id: user._id }, secretKey, { expiresIn: '7d' });
+      const token = jwt.sign({ _id: user._id }, 'some-secret-key', { expiresIn: '7d' });
       console.log(secretKey);
       // вернём токен в куки
       response
