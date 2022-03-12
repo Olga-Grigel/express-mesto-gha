@@ -72,7 +72,6 @@ const login = (request, response, next) => {
       // аутентификация успешна и пользователь в переменной user, создадим токен
       const token = jwt.sign({ _id: user._id }, NODE_ENV !== 'production' ? 'some-secret-key' : JWT_SECRET, { expiresIn: '7d' });
       // вернём токен в куки
-      console.log(NODE_ENV);
       response
         .cookie('jwt', token, {
           maxAge: 3600000 * 24 * 7,
