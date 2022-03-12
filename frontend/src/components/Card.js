@@ -21,7 +21,6 @@ function Card(props) {
     props.onCardDelete(props.card);
   }
 
-  //console.log(props.card)
   return (
     <div className="element">
       <button type="button" className={cardDeleteButtonClassName} onClick={handleDeleteClick}></button>
