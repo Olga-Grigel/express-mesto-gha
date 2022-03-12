@@ -17,7 +17,7 @@ const { PORT = 3001 } = process.env;
 const app = express();
 app.use(cookieParser());
 app.use(cors({
-  origin: 'http://localhost:3000', // домен фронтенда
+  origin: 'https://olgagrigel.students.nomoredomains.work', // домен фронтенда
   credentials: true, // для того, чтобы CORS поддерживал кроссдоменные куки
 }));
 app.use(express.json());

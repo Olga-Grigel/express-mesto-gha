@@ -1,5 +1,5 @@
 import api from '../utils/Api';
-const BASE_URL = 'http://localhost:3001';
+const BASE_URL = 'https://api.olgagrigel.students.nomoredomains.work';
 
 export const signup = ({ email, password }) => {
   return fetch(`${BASE_URL}/signup`, {
