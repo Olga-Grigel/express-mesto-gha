@@ -6,3 +6,4 @@
 
 * Проект доступен для общего использования по ссылке:https://olgagrigel.students.nomoredomains.work/
 * Gубличный IP-адрес сервера: 130.193.48.41
+* домен сервера: https://api.olgagrigel.students.nomoredomains.work/

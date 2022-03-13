@@ -17,7 +17,7 @@ const { PORT = 3001 } = process.env;
 const app = express();
 app.use(cookieParser());
 app.use(cors({
-  origin: 'https://olgagrigel.students.nomoredomains.work', // домен фронтенда
+  origin: ['https://olgagrigel.students.nomoredomains.work', 'http://olgagrigel.students.nomoredomains.work'], // домен фронтенда
   credentials: true, // для того, чтобы CORS поддерживал кроссдоменные куки
 }));
 app.use(express.json());
@@ -52,7 +52,3 @@ app.use(errorLogger); // подключаем логгер ошибок
 app.use(errors()); // обработчик ошибок celebrate
 app.use(errorHandler);// централизованный обработчик
 app.listen(PORT, () => { });
-
-app.get('/', (req, res) => {
-  res.send('hello');
-});
